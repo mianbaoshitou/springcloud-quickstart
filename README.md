@@ -1,5 +1,13 @@
 # springcloud-quickstart
 
+项目整体基于
+
+SpringCloud-**Greenwich.RELEASE**
+
+SpingBoot-**2.1.10.RELEASE**
+
+构建。
+
 ### springcloud-gateway 网关模块
 
 基于SpringCloudGateway实现的网关模块，目前实现根据请求路径连接 springcloud-auth授权模块和 springcloud-app模块
