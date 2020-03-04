@@ -1,0 +1,25 @@
+server:
+  port: 8801
+  undertow:
+    io-threads: 6
+
+#spring:
+#  datasource:
+#      driver-class-name: com.mysql.cj.jdbc.Driver       #配置MySQL的驱动程序类
+#      url: jdbc:mysql://192.168.0.180:3306/linkeddb?useUnicode=true&characterEncoding=utf8&useSSL=false&allowPublicKeyRetrieval=true
+#      username: linkedusr
+#      password: linkedpass
+#  jpa:
+#    show-sql: true
+
+
+spring:
+  datasource:
+      driver-class-name: com.mysql.cj.jdbc.Driver       #配置MySQL的驱动程序类
+      url: jdbc:mysql://localhost:3306/springcloud?useUnicode=true&characterEncoding=utf8&useSSL=false&allowPublicKeyRetrieval=true
+      username: springcloud
+      password: springcloud
+  jpa:
+    show-sql: true
+
+
